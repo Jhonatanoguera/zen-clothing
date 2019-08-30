@@ -10,16 +10,16 @@
     top: 90px;
     right: 40px;
     z-index: 5;
-     ::-webkit-scrollbar {
-        display: none;
-        /* this makes the scroll bar to hide */
-    }
-    .cart-items {
+        .cart-items {
         height: 240px;
         display: flex;
         flex-direction: column;
         overflow: scroll;
-    }
+        }
+        .empty-message {
+            font-size: 18px;
+            margin: 10px auto;
+        }
     button {
         margin-top: auto;
     }
